@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on: 20-Sep-2018
+// Created by: Wendi Yu
+// Created for: ICS3U
+// This program is a calculate the area and perimeter for a rectangle 
+
+// this will be commented out when code moved to Xcode
+
+show("Calculate an area and perimeter for a rectangle.")
+
+let length : Int = askForNumber("Enter a positive number for length ")
+let width : Int = askForNumber("Enter a positive number for width ")
+
+let area = length * width
+let perimeter = 2 * (length + width)
+
+show("Area = \(area) cm^2 ")
+show ("Perimeter = \(perimeter) cm")
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 530}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
